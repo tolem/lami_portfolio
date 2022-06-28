@@ -291,7 +291,7 @@ const Portfolio = () => {
               </FadeInWrapper>
               <Heading> Research Interest</Heading>
               <FadeInWrapper>
-                <Box><Text> Human Computer Interaction </Text>
+                <Box><Text> Human Computer Interaction (Accessibility) </Text>
                 <Text> Knowledge Management </Text>
                 <Text> Human Information Seeking </Text>
                 </Box>
