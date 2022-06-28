@@ -107,7 +107,7 @@ const Portfolio = () => {
 
               <Stack direction={"row"} align={"center"} spacing={4}>
                 <Link href="#works">
-                  <Button mt={5}>My works</Button>
+                  <Button mt={5}>Projects</Button>
                 </Link>
 
                 <Link
