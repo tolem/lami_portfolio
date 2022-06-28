@@ -97,7 +97,7 @@ export default function Index() {
 
             <Stack direction={"row"} align={"center"}>
               <Link href="/portfolio" title="portfolio">
-                <Button mt={5}>My works 💻</Button>
+                <Button mt={5}>Projects 💻</Button>
               </Link>
             </Stack>
           </Flex>
