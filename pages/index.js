@@ -24,7 +24,7 @@ import { motion } from "framer-motion";
 // SEO
 import { NextSeo } from "next-seo";
 import FadeInWrapper from "../components/FadeInWrapper";
-import Todo from "../components/ToDo";
+import Todo from "../components/Todo";
 
 const url = "https://lamiolowoniyi.info/";
 const title = "Lami Olowoniyi";
@@ -202,7 +202,7 @@ export default function Index() {
 
         <Box>
         <FadeInWrapper>
-        <Todo></Todo>
+        <Todo/>
         </FadeInWrapper>
         </Box>
       </Container>
