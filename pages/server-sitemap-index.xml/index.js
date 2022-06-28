@@ -5,7 +5,7 @@ import { getServerSideSitemap } from "next-sitemap";
 
 // fetching from api and returning response as json 
 export const GetBlogPosts = async () => {
-  const response = await fetch("https://thosam.vercel.app/blog", {
+  const response = await fetch("https://lamiolowoniyi/blog", {
     method: "GET",
   });
   const result = await response.json();
@@ -13,7 +13,7 @@ export const GetBlogPosts = async () => {
 };
 
 export const getServerSideProps = async (contex) => {
-  const siteUrl = "https://thosam.vercel.app";
+  const siteUrl = "https://lamiolowoniyi.info";
   const data = await GetBlogPosts();
 
   const fields = data.map((articles) => ({

@@ -69,13 +69,13 @@ export default function BlogLayout({ children, frontMatter }) {
             <Flex align="center">
               <Avatar
                 size="xs"
-                name="Thösam Norlha-Tsang"
-                src="../images/thosam_auth_image.webp"
+                name="Lami Olowoniyi"
+                src="../images/dog_profile2.webp"
                 mr={2}
               />
               <Text fontSize="sm" color={textColor[colorMode]}>
                 {frontMatter.by}
-                {"Thösam Norlha-Tsang / "}
+                {"Lami Olowoniyi / "}
                 {format(parseISO(frontMatter.publishedAt), "MMMM dd, yyyy")}
               </Text>
             </Flex>

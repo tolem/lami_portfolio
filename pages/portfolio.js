@@ -31,7 +31,7 @@ import { FadeInWrapper } from "../components/FadeInWrapper";
 
 // icon
 import { GrBlockQuote } from "react-icons/gr";
-import { FiMail } from "react-icons/fi";
+import { FiDownload, FiMail } from "react-icons/fi";
 
 // SEO
 import { NextSeo } from "next-seo";
@@ -97,7 +97,7 @@ const Portfolio = () => {
             <Flex flexDir="column" w={["100%", "100%", "50%"]} mr={[0, 0, 4]}>
               <Heading mb={3}>Hi 👋, I'm Lami</Heading>
               <Text color={colorSecondary[colorMode]} mb={3}>
-                I am a <b>Usablity Specialist and Frontend developer</b>, currently a Master's Student in
+                I am a <strong>Usablity Specialist and Frontend developer</strong>, currently a Master's Student in
                 Albany NY.
               </Text>
 
@@ -291,9 +291,9 @@ const Portfolio = () => {
               </FadeInWrapper>
               <Heading> Research Interest</Heading>
               <FadeInWrapper>
-                <Box><Text> Information Organization </Text>
-                <TexT> Knowledge Management </TexT>
-                
+                <Box><Text> Human Computer Interaction </Text>
+                <Text> Knowledge Management </Text>
+                <Text> Human Information Seeking </Text>
                 </Box>
                 <Heading
                   letterSpacing="tight"
@@ -303,7 +303,7 @@ const Portfolio = () => {
                   as="h2"
                   mb={7}
                 >
-                  Courses
+                  Some Courses Taken
                 </Heading>
               </FadeInWrapper>
               <CourseCards semester={"2"} />
@@ -324,8 +324,9 @@ const Portfolio = () => {
 
             </Box>
 
-            {/* Contact Me */}
-            <FadeInWrapper>
+
+                    {/* Contact Me */}
+                    <FadeInWrapper>
               <Box as="section" mt={10} mb={10}>
                 <Heading
                   letterSpacing="tight"
@@ -350,6 +351,22 @@ const Portfolio = () => {
                   >
                     Contact me
                   </Button>
+                  
+                </Link>
+                <Link
+                  href="/transcript/lami_transcript.pdf"
+                  title="transcript"
+                  target={"_blank"}
+                >
+                  <Button
+                    data-splitbee-event="Button Click"
+                    data-splitbee-event-type="Resume"
+                    mt={5} ml={5}
+                    leftIcon={<FiDownload />}
+                  >
+                    Transcript
+                  </Button>
+                  
                 </Link>
               </Box>
             </FadeInWrapper>

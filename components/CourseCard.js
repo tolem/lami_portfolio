@@ -15,11 +15,11 @@ const chooseColor = (type) => {
       return "green.300";
     case "PSY":
       return "blue.300";
-    case "InfSC":
+    case "IST":
       return "purple.300";
-    case "POLI":
+    case "POL":
       return "yellow.300";
-    case "HUM":
+    case "BUS":
       return "red.300";
     default:
       return "white";

@@ -42,7 +42,7 @@ export default function projectsList() {
                 'Node'
             ],
             images: [
-                'https://via.placeholder.com/350x150?text=Hello',
+                'https://via.placeholder.com/350x150?text=Hello+Newsroom+ongoing',
             ],
             featured: true
         },

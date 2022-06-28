@@ -15,9 +15,9 @@ export default function Blog({ mdxSource, frontMatter }) {
   const router = useRouter();
   const slug = router.asPath.replace("/blog", "");
 
-  const url = `https://thosam.vercel.app/blog${slug}`
+  const url = `https://lamiolowoniyi.info/blog${slug}`
   const title = `Blog - ${frontMatter.title}`;
-  const description = `${frontMatter.title} - by Thösam Norlha-Tsang`;
+  const description = `${frontMatter.title} - by Lami Olowoniyi`;
 
   // overriding SEO
   const SEO = {

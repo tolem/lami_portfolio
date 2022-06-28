@@ -55,11 +55,11 @@ const Todo = () => {
     const myTodos = [
         {
             completed: false,
-            title: 'Finish my degree 🎓',
+            title: 'Finish my  Master\'s degree 🎓',
         },
         {
             completed: false,
-            title: 'Become a chess grandmaster ♟️',
+            title: 'Achieve chess master rank♟️',
         },
         {
             completed: false,
@@ -95,7 +95,7 @@ const Todo = () => {
             <Box as="section" w="100%" mt={10} mb={20}>
                 <Stack spacing={4} w="100%">
                     <Heading letterSpacing="tight" size="lg" fontWeight={700} as="h2">Todo List 📝</Heading>
-                    <Text color={colorSecondary[colorMode]}>Here is a list of things I plan to accomplish over the next year. Try it out yourself!</Text>
+                    <Text color={colorSecondary[colorMode]}>Here is a list of things I plan to accomplish this year. Try it out yourself!</Text>
                     <InputGroup size="md" mt={4} borderColor="gray.900" borderColor={borderColor[colorMode]}>
                         <InputLeftElement
                             pointerEvents="none"

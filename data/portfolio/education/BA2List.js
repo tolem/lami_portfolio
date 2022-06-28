@@ -1,39 +1,80 @@
 export default function BA2List() {
     return [
         {
-            name: "Practice of object-oriented programming",
-            code: "CS-108",
-            link: "https://edu.epfl.ch/coursebook/en/practice-of-object-oriented-programming-CS-108",
-            credits: 9,
+            name: "Database Systems and Data Analysis",
+            code: "Ist-506",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
             type: "CS",
         },
         {
-            name: "Digital system design",
-            code: "CS-173",
-            link: "https://edu.epfl.ch/coursebook/en/digital-system-design-CS-173",
-            credits: 6,
+            name: "Text Analysis",
+            code: "Ist-529",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
             type: "CS",
         },
         {
-            name: "Advanced information, computation, communication II",
-            code: "COM-102",
-            link: "https://edu.epfl.ch/coursebook/en/advanced-information-computation-communication-ii-COM-102",
-            credits: 7,
-            type: "COM",
+            name: "Information Storage and Retrieval ",
+            code: "Ist-533",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
+            type: "CS",
         },
         {
-            name: "Analysis II",
-            code: "MATH-106(en)",
+            name: "Human Information Behavior",
+            code: "Ist-565",
             link: "https://edu.epfl.ch/coursebook/en/analysis-ii-english-MATH-106-EN",
-            credits: 6,
+            credits: 3,
+            type: "PSY",
+        },
+        {
+            name: "Research Methods",
+            code: "Ist-608",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
             type: "MATH",
         },
+
         {
-            name: "Global issues: health A",
-            code: "HUM-125(a)",
-            link: "https://edu.epfl.ch/coursebook/en/global-issues-health-a-HUM-125-A",
-            credits: 2,
-            type: "HUM",
+            name: "Information Systems",
+            code: "Ist-611",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
+            type: "BUS"
         },
+        {
+            name: "Fundamentals of Information Technologies",
+            code: "Ist-523",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 5,
+            type: "CS"
+        },
+        {
+            name: "Information Enviroment",
+            code: "Ist-601",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
+            type: "IST"
+        },
+        {
+            name: "Knowledge Organization",
+            code: "Ist-602",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
+            type: "IST"
+        },
+        {
+            name: "Information and Public Policy",
+            code: "Ist-560",
+            link: "https://www.albany.edu/graduatebulletin/i_ist.htm",
+            credits: 3,
+            type: "POL"
+        },
+        
+        
+
     ];
 }
+
+

@@ -25,8 +25,8 @@ import { getAllFilesFrontMatter } from "../lib/mdx";
 import { NextSeo } from "next-seo";
 import { FadeInWrapper } from "../components/FadeInWrapper";
 
-const url = "https://thosam.vercel.app/blog";
-const title = "Blog - Thösam Norlha-Tsang";
+const url = "https://lamiolowoniyi.info/blog";
+const title = "Blog - Lami Olowoniyi";
 const description =
   "My blog page where you can learn from my experience and read interesting articles !";
 
@@ -67,7 +67,7 @@ export default function Blog({ posts }) {
     <>
       <NextSeo {...SEO} />
       <Head>
-        <title>Blog - Thösam Norlha-Tsang</title>
+        <title>Blog - Lami Olowoniyi</title>
       </Head>
 
       <FadeInWrapper>
