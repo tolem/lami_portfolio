@@ -29,7 +29,7 @@ import Todo from "../components/Todo";
 const url = "https://lamiolowoniyi.info/";
 const title = "Lami Olowoniyi";
 const description =
-  "Frontend Developer, and AI enthusiast. This is my personal website where you can read my articles and have a look at my portfolio - Have fun !";
+  "Usablity Specialist, and Frontend Developer This is my personal website where you can read my articles and have a look at my portfolio - Have fun !";
 
 // overriding SEO
 const SEO = {
