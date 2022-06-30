@@ -23,6 +23,8 @@ import { bgColor } from "../styles/theme_color_schemes";
 // SEO
 import { DefaultSeo } from "next-seo";
 import SEO from "../next-seo.config";
+import Script from "next/script";
+
 
 const GlobalStyle = ({ children }) => {
   // grabbing reference
@@ -60,8 +62,34 @@ const GlobalStyle = ({ children }) => {
 
 // root app
 function MyApp({ Component, pageProps }) {
+  const router = useRouter()
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url)
+    }
+
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
+
   return (
     <>
+    <Script 
+    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
+    strategy="afterInteractive"
+    /> 
+    <Script id="google-analytics" strategy="afterInteractive">
+      {`
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
+      `}
+       </Script>
       <DefaultSeo {...SEO} />
       <ChakraProvider resetCSS theme={customTheme}>
         <ColorModeProvider
@@ -80,3 +108,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+

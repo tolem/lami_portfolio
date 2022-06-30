@@ -15,15 +15,8 @@ export default function Document() {
           strategy="afterInteractive"
         ></Script>
 
-      <Script
-        onLoad={() => {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-Q1Z378W5RW');
-        }}
-      >
-      </Script>
+             
+
       </Head>
       <body>
         <ColorModeScript />
