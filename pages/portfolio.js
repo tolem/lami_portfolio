@@ -24,6 +24,7 @@ import Container from "../components/Container"; // wrapper of pages
 import SkillCards from "../components/SkillCards";
 import ProjectCards from "../components/ProjectCards";
 import CourseCards from "../components/CourseCards";
+import ResearchList from "../components/ResearchList";
 
 // animations
 import { motion } from "framer-motion";
@@ -138,6 +139,7 @@ const Portfolio = () => {
                   maxW="450px"
                   objectFit="cover"
                   alt="dog pic :)"
+                  
                 />
               </motion.div>
             </Box>
@@ -273,9 +275,6 @@ const Portfolio = () => {
               {/* <MdOutlineSchool size="40px" /> */}
 
               {/* <MdOutlineSchool size="40px" /> */}
-              <FadeInWrapper>
-
-              </FadeInWrapper>
 
               <FadeInWrapper>
                 <Heading
@@ -289,12 +288,13 @@ const Portfolio = () => {
                   SUNY Albany - Masters in Information Science
                 </Heading>
               </FadeInWrapper>
-              <Heading> Research Interest</Heading>
               <FadeInWrapper>
-                <Box><Text> Human Computer Interaction (Accessibility) </Text>
-                <Text> Knowledge Management </Text>
-                <Text> Human Information Seeking </Text>
-                </Box>
+              <Heading> Research Interest</Heading>
+              <ResearchList/>
+            
+
+              </FadeInWrapper>
+                <FadeInWrapper> 
                 <Heading
                   letterSpacing="tight"
                   mt={8}
