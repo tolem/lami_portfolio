@@ -10,13 +10,10 @@ export default function Document() {
     <Html lang="en">
 
       <Head>
-      <Script
+      {/* <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-Q1Z378W5RW"
           strategy="afterInteractive"
-        ></Script>
-
-             
-
+        ></Script> */}
       </Head>
       <body>
         <ColorModeScript />

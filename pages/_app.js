@@ -80,7 +80,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Script 
-    src={`https://www.googletagmanager.com/gtag/js?id=G-Q1Z378W5RW`}
+    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
     strategy="afterInteractive"
     /> 
     <Script id="google-analytics" strategy="afterInteractive">
@@ -89,7 +89,7 @@ function MyApp({ Component, pageProps }) {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-Q1Z378W5RW');
+      gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
       `}
        </Script>
       <DefaultSeo {...SEO} />
