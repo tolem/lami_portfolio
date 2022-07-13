@@ -75,7 +75,7 @@ export default function Index() {
           <Flex flexDir="column" w={["100%", "100%", "50%"]} mr={[0, 0, 4]}>
             <Heading mb={3}>Hi there, I'm Lami 😁</Heading>
             <Text color={colorSecondary[colorMode]} mb={3}>
-              I am a  <b>Usablity Specialist and Frontend developer</b>. Also an international student living in
+              I am a  <b>Usablity Specialist withn an interest in frontend Development and interaction</b>. Also an international student living in
               the United States.
             </Text>
 

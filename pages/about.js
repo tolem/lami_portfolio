@@ -79,7 +79,7 @@ const About = () => {
               <Heading mb={3}>Hi everyone, I'm Lami </Heading>
 
               <Text color={colorSecondary[colorMode]} mb={3}>
-                I am a <strong>Usablity Specialist and Frontend developer</strong>,  currently I am a Master's Student living in
+                I am a <strong>Usablity Specialist with an interest in frontend Development and interaction</strong>,  currently I am a Master's Student living in
                 Albany NY.
               </Text>
 
@@ -101,7 +101,7 @@ const About = () => {
                 I come from Nigeria and grew up in Lagos.
               </Text>
               <Text color={colorSecondary[colorMode]} mb={3}>
-                I have a passion for everything related to human information behavior and user experience research.
+                I have a passion for human information behavior and user experience research.
               </Text>
               <Text color={colorSecondary[colorMode]} mb={3}>
                 Here are some of the things I like to do in my spare time, I enjoy wacthing sci-fi  and historical films, and reading works of fiction and non-fiction.  

@@ -98,7 +98,7 @@ const Portfolio = () => {
             <Flex flexDir="column" w={["100%", "100%", "50%"]} mr={[0, 0, 4]}>
               <Heading mb={3}>Hi 👋, I'm Lami</Heading>
               <Text color={colorSecondary[colorMode]} mb={3}>
-                I am a <strong>Usablity Specialist and Frontend developer</strong>, currently a Master's Student in
+                I am a <strong>Usablity Specialist with an interest in frontend Development and interaction</strong>, currently a Master's Student in
                 Albany NY.
               </Text>
 
