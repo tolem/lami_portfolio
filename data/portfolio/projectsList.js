@@ -32,17 +32,17 @@ export default function projectsList() {
         },
         {
             title: 'Newsroom',
-            description: 'In Progress a news website powered by NewsAPI',
-            githubLink: '#',
-            demoLink: '#',
-            domainName: '#',
+            description: 'A responsive SPA website  powered by NewsAPI to find and persist news',
+            githubLink: 'https://github.com/tolem/rota/tree/news',
+            demoLink: 'https://meek-centaur-4463a5.netlify.app/',
+            domainName: 'meek-centaur-4463a5.netlify.app',
             tags: [
                 'React',
                 'Mongoose',
                 'Node'
             ],
             images: [
-                'https://via.placeholder.com/350x150?text=Hello+Newsroom+ongoing',
+                '/images/projects/news.png',
             ],
             featured: true
         },
