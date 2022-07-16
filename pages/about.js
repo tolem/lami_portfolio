@@ -79,7 +79,7 @@ const About = () => {
               <Heading mb={3}>Hi everyone, I'm Lami </Heading>
 
               <Text color={colorSecondary[colorMode]} mb={3}>
-                I am a <strong>Usablity Specialist with an interest in frontend development</strong>,  currently I am a Master's Student living in
+                I am a <strong>UX Researcher with an interest in frontend development</strong>,  currently I am a Master's Student living in
                 Albany NY.
               </Text>
 

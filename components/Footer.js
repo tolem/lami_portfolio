@@ -7,6 +7,7 @@ import {
   Box,
   Divider,
 } from "@chakra-ui/react";
+import { FaKaggle } from "react-icons/fa";
 import {
   FiGithub,
   FiLinkedin,
@@ -98,6 +99,21 @@ const Footer = () => {
             <IconButton
               aria-label="Email"
               icon={<FiMail />}
+              size="lg"
+              color={borderIcon[colorMode]}
+              variant="ghost"
+              _hover={{ backgroundColor: footerHoverBg[colorMode] }}
+            />
+          </Link>
+          
+          <Link
+            href="https://www.kaggle.com/lamtoll"
+            title="Kaggle"
+            isExternal
+          >
+            <IconButton
+              aria-label="Kaggle"
+              icon={<FaKaggle />}
               size="lg"
               color={borderIcon[colorMode]}
               variant="ghost"
