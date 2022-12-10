@@ -4,6 +4,8 @@ import { getFiles, getFileBySlug } from "../../lib/mdx";
 import BlogLayout from "../../layouts/blog";
 import MDXComponents from "../../components/MDXComponents";
 
+
+
 // SEO
 import { NextSeo } from "next-seo";
 
@@ -38,7 +40,10 @@ export default function Blog({ mdxSource, frontMatter }) {
       <NextSeo {...SEO} />
       <BlogLayout frontMatter={frontMatter}>
         <MDXRemote {...mdxSource} components={MDXComponents} />
+        
       </BlogLayout>
+     
+    
     </>
   );
 }
