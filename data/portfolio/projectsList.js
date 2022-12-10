@@ -31,7 +31,7 @@ export default function projectsList() {
             featured: false
         },
         {
-            title: 'Newsroom',
+            title: 'Newsfeed',
             description: 'A responsive SPA website  powered by NewsAPI to find and persist news',
             githubLink: 'https://github.com/tolem/rota/tree/news',
             demoLink: 'https://meek-centaur-4463a5.netlify.app/',
