@@ -354,7 +354,7 @@ const Portfolio = () => {
                   
                 </Link>
                 <Link
-                  href="/transcript/lami_transcript.pdf"
+                  href="/transcript/Transcript.pdf"
                   title="transcript"
                   target={"_blank"}
                 >
