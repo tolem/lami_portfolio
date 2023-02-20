@@ -14,6 +14,7 @@ export default function Document() {
           src="https://www.googletagmanager.com/gtag/js?id=G-Q1Z378W5RW"
           strategy="afterInteractive"
         ></Script> */}
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=F48NK2Ar5Qwnn67LSGGhl39jfGhqtBkqjkzW2moEx4U&cl=ffffff&w=a"></script>
       </Head>
       <body>
         <ColorModeScript />
